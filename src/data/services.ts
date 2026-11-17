@@ -340,7 +340,7 @@ export const subcategoryServices: SubcategoryService[] = [
     categoryTitle: "Windows, Wall & Floor Graphics",
     tagline: "High-precision custom cut vinyl for windows, walls and interior surfaces.",
     description:
-      "Custom adhesive vinyl provides flexible graphic power across interior drywall, exterior glass, acrylic, and smooth painted metals. Whether you need full-color printed wall murals, die-cut logo decals, or frosted privacy film, we produce clean, bubble-free graphics tailored to your specifications.",
+      "Custom adhesive vinyl provides flexible graphic power across interior drywall, exterior glass, acrylic, and smooth painted metals. Whether you need full-colour printed wall murals, die-cut logo decals, or frosted privacy film, we produce clean, bubble-free graphics tailored to your specifications.",
     image: "/image/services/windows-wall-floor/adhesive-vinyl-printing.webp",
     gallery: [
       "/image/services/windows-wall-floor/cafe-window-vinyl-graphics.webp",
@@ -349,7 +349,7 @@ export const subcategoryServices: SubcategoryService[] = [
     features: [
       "Removable or permanent adhesive options suited to your installation duration",
       "Computer-guided contour cutting for intricate lettering and emblems",
-      "Vibrant eco-solvent and UV-cured inks with true color accuracy",
+      "Vibrant eco-solvent and UV-cured inks with true colour accuracy",
       "Available with opaque, translucent, or frosted etch finishes",
     ],
     options: [
@@ -422,7 +422,7 @@ export const subcategoryServices: SubcategoryService[] = [
     categoryTitle: "Banners & Displays",
     tagline: "Lightweight rigid foam core boards for presentations, easels, and retail signs.",
     description:
-      "Printed directly with UV curable inks or mounted on dense paper-faced polystyrene, our foam board prints deliver sharp text and vivid color in a lightweight, budget-friendly format. Ideal for presentations, courtroom exhibits, tabletop displays, and easel signs.",
+      "Printed directly with UV curable inks or mounted on dense paper-faced polystyrene, our foam board prints deliver sharp text and vivid colour in a lightweight, budget-friendly format. Ideal for presentations, courtroom exhibits, tabletop displays, and easel signs.",
     image: "/image/services/banners-displays/jp-showcase-displays.webp",
     gallery: [
       "/image/services/banners-displays/jp-promotional-banner.webp",
@@ -436,7 +436,7 @@ export const subcategoryServices: SubcategoryService[] = [
     ],
     options: [
       { label: "Thickness", values: ["3/16 Inch (Standard)", "1/2 Inch (Heavy Duty)"] },
-      { label: "Core Color", values: ["White Core", "Black Core"] },
+      { label: "Core Colour", values: ["White Core", "Black Core"] },
       { label: "Mounting", values: ["Freestanding Easel", "Wall Hanging Tabs", "None (Display Only)"] },
     ],
     applications: ["Conference Presentations", "Welcome Signs", "Event Seating Charts", "Retail POP Displays"],
@@ -538,7 +538,7 @@ export const subcategoryServices: SubcategoryService[] = [
     features: [
       "Standard 4mm or rigid 10mm fluted corrugated plastic",
       "100% waterproof and impervious to rain, snow, and moisture",
-      "Direct UV flatbed printing with crisp graphics and bright color contrast",
+      "Direct UV flatbed printing with crisp graphics and bright colour contrast",
       "Can be mounted with wire step stakes, zip ties, screws, or Velcro",
     ],
     options: [
@@ -565,7 +565,7 @@ export const subcategoryServices: SubcategoryService[] = [
     features: [
       "Precision laser-cut acrylic, brushed aluminum composite, or PVC dimensional lettering",
       "Sleek architectural brushed metal standoff hardware for dimensional wall float",
-      "Custom pantone brand color matching on face or back-painted acrylic",
+      "Custom Pantone brand colour matching on face or back-painted acrylic",
       "Clean template-guided installation ensures perfect alignment",
     ],
     options: [
@@ -622,7 +622,7 @@ export const subcategoryServices: SubcategoryService[] = [
     features: [
       "High-visibility directional arrows pointing left, right, or straight",
       "Pre-fluted for standard galvanized H-stakes or heavy beefy stakes",
-      "High-contrast color layouts ensure legibility from moving cars",
+      "High-contrast colour layouts ensure legibility from moving cars",
       "Bundle packs available for multi-intersection open house coverage",
     ],
     options: [
@@ -675,7 +675,7 @@ export const subcategoryServices: SubcategoryService[] = [
       "Vibrant high-contrast layouts readable from 100+ feet away",
       "Available with reusable dry-erase date/time sections",
       "Lightweight folding A-frame or rigid wire-stake formats for easy car trunk storage",
-      "Full custom brokerage branding (colors, logo, agent photo)",
+      "Full custom brokerage branding (colours, logo, agent photo)",
     ],
     options: [
       { label: "Format", values: ["Wire-Stake Coroplast Signs", "Metal Folding A-Frame", "Signicade Plastic Sandwich Board"] },
@@ -824,7 +824,7 @@ export const subcategoryServices: SubcategoryService[] = [
     categoryTitle: "Business Cards",
     tagline: "High-quality, dependable everyday business cards at exceptional value.",
     description:
-      "The classic corporate business card, perfected. Printed on thick 14pt or 16pt cardstock with crisp full-color printing on both sides. Available with subtle matte or high-gloss UV coating for lasting everyday durability.",
+      "The classic corporate business card, perfected. Printed on thick 14pt or 16pt cardstock with crisp full-colour printing on both sides. Available with subtle matte or high-gloss UV coating for lasting everyday durability.",
     image: "/image/products/business-cards/natural-paper-business-cards.webp",
     gallery: [
       "/image/products/business-cards/matte-vs-silk-business-cards.webp",
@@ -832,7 +832,7 @@ export const subcategoryServices: SubcategoryService[] = [
     ],
     features: [
       "Durable 14pt or 16pt premium cardstock base",
-      "Vibrant high-resolution full-color printing (Front & Back included)",
+      "Vibrant high-resolution full-colour printing (Front & Back included)",
       "Protective coating options to prevent scuffing in wallets",
       "Standard 3.5\" x 2\" format with optional smooth rounded corners",
     ],
@@ -851,7 +851,7 @@ export const subcategoryServices: SubcategoryService[] = [
     categoryTitle: "Business Cards",
     tagline: "Silky smooth laminate coating that exudes contemporary elegance and understated luxury.",
     description:
-      "Silk-laminated business cards feature an ultra-smooth, velvety surface that immediately signals superior craftsmanship. The protective silk film renders the cards water and tear-resistant while giving colors a refined, non-glare finish.",
+      "Silk-laminated business cards feature an ultra-smooth, velvety surface that immediately signals superior craftsmanship. The protective silk film renders the cards water and tear-resistant while giving colours a refined, non-glare finish.",
     image: "/image/products/business-cards/matte-vs-silk-business-cards.webp",
     gallery: [
       "/image/products/business-cards/luxury-business-card-finishes.webp",
@@ -943,7 +943,7 @@ export const subcategoryServices: SubcategoryService[] = [
       "Available in classic Solar White or Natural Cream paper tones",
     ],
     options: [
-      { label: "Paper Color", values: ["Solar White Linen", "Natural Cream Linen"] },
+      { label: "Paper Colour", values: ["Solar White Linen", "Natural Cream Linen"] },
       { label: "Quantity", values: ["250", "500", "1,000", "2,500"] },
     ],
     applications: ["Law Firms & Legal Consultancies", "Financial Advisors & Wealth Managers", "Architects & Heritage Brands"],
@@ -1020,7 +1020,7 @@ export const subcategoryServices: SubcategoryService[] = [
     features: [
       "Cost-effective tiered volume pricing on quantities from 50 to 5,000+ units",
       "Fast production cycles meet strict campaign candidate deadlines",
-      "Vivid high-saturation colors that remain bold under direct sunlight and rain",
+      "Vivid high-saturation colours that remain bold under direct sunlight and rain",
       "Standard 24\" x 16\" or 24\" x 18\" sizes with galvanized wire H-stakes included",
     ],
     options: [

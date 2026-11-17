@@ -208,7 +208,7 @@ export const products: Product[] = [
     badge: "Versatile",
     isConfigurable: true,
     features: [
-      "High-density 1200 DPI wide-format printing for crisp text and vivid color",
+      "High-density 1200 DPI wide-format printing for crisp text and vivid colour",
       "Available with heat-welded hems, brass grommets, and pole pockets",
       "Retractable units include sturdy aluminum base and padded travel bag",
       "UV-stable outdoor vinyl resists water, rain, wind, and sun fade",

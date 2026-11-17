@@ -284,7 +284,7 @@ export default function HomePage() {
                   <div className={styles.workflowStep}>02 — Design</div>
                   <h3 className={styles.workflowTitle}>Design & Proof</h3>
                   <p className={styles.workflowDesc}>
-                    Our prepress team generates accurate visual digital mockups to verify scale, color values, and bleed.
+                    Our prepress team generates accurate visual digital mockups to verify scale, colour values, and bleed.
                   </p>
                 </div>
               </div>

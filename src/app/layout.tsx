@@ -1,4 +1,5 @@
 import type { Metadata, Viewport } from "next";
+import ClientSafeDOM from "@/components/layout/ClientSafeDOM";
 import "./globals.css";
 import "./scrollbar.css";
 
@@ -45,8 +46,38 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <head>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              (function() {
+                if (typeof window !== 'undefined' && typeof Node !== 'undefined' && Node.prototype) {
+                  var origRemoveChild = Node.prototype.removeChild;
+                  Node.prototype.removeChild = function(child) {
+                    if (!child || child.parentNode !== this) {
+                      return child;
+                    }
+                    return origRemoveChild.apply(this, arguments);
+                  };
+                  var origInsertBefore = Node.prototype.insertBefore;
+                  Node.prototype.insertBefore = function(newNode, refNode) {
+                    if (refNode && refNode.parentNode !== this) {
+                      return newNode;
+                    }
+                    return origInsertBefore.apply(this, arguments);
+                  };
+                  window.addEventListener('error', function(e) {
+                    if (e && e.message && (e.message.indexOf('removeChild') !== -1 || e.message.indexOf('not a child') !== -1)) {
+                      e.preventDefault();
+                      e.stopImmediatePropagation();
+                    }
+                  }, true);
+                }
+              })();
+            `,
+          }}
+        />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link
@@ -54,8 +85,11 @@ export default function RootLayout({
           rel="stylesheet"
         />
       </head>
-      <body>
-        {children}
+      <body suppressHydrationWarning>
+        <ClientSafeDOM />
+        <div id="__app_root" style={{ minHeight: "100vh", display: "flex", flexDirection: "column" }}>
+          {children}
+        </div>
       </body>
     </html>
   );

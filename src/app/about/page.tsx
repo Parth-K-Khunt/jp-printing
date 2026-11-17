@@ -158,7 +158,7 @@ export default function AboutPage() {
                 <div className={styles.valueNumber}>03</div>
                 <h3 className={styles.valueTitle}>Attention to Detail</h3>
                 <p className={styles.valueDesc}>
-                  Every graphic file undergoes thorough prepress inspection. We catch scaling errors, color shifts, and resolution issues before ink hits substrate.
+                  Every graphic file undergoes thorough prepress inspection. We catch scaling errors, colour shifts, and resolution issues before ink hits substrate.
                 </p>
               </div>
 

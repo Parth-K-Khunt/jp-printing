@@ -53,7 +53,7 @@ export default function ContactInquiry() {
           </p>
           <div className={styles.direct}>
             <a href="mailto:jpprint13@gmail.com"><Mail size={16} /> jpprint13@gmail.com</a>
-            <a href="tel:+19059191181"><Phone size={16} /> 905 919 1181</a>
+            <a href="tel:9059191181"><Phone size={16} /> 905 919 1181</a>
           </div>
           <div className={styles.cmyk} aria-hidden="true"><i /><i /><i /><i /></div>
         </div>

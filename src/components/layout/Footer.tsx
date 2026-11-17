@@ -89,31 +89,31 @@ export default function Footer() {
           {/* Column 4: Verified Contact Info */}
           <div>
             <h4 style={{ color: "#FFFFFF", fontSize: "15px", fontWeight: "600", marginBottom: "18px", letterSpacing: "0.05em", textTransform: "uppercase" }}>
-              Contact & Hours
+              Contact &amp; Hours
             </h4>
             <div style={{ display: "flex", flexDirection: "column", gap: "14px", fontSize: "14px", color: "#A8A7A0" }}>
               <div style={{ display: "flex", alignItems: "flex-start", gap: "10px" }}>
                 <Phone size={16} style={{ color: "#00B9D6", marginTop: "3px", flexShrink: 0 }} />
                 <div>
-                  <div style={{ fontSize: "12px", color: "#777873", textTransform: "uppercase" }}>Phone</div>
-                  <a href="tel:9059191181" style={{ color: "#FFFFFF", fontWeight: "500" }}>905 919 1181</a>
+                  <div style={{ fontSize: "12px", color: "#777873", textTransform: "uppercase", fontWeight: "600", letterSpacing: "0.05em" }}>Phone</div>
+                  <a href="tel:9059191181" style={{ color: "#FFFFFF", fontWeight: "600", fontSize: "15.5px", letterSpacing: "0.015em" }}>905 919 1181</a>
                 </div>
               </div>
 
               <div style={{ display: "flex", alignItems: "flex-start", gap: "10px" }}>
                 <Mail size={16} style={{ color: "#E5007D", marginTop: "3px", flexShrink: 0 }} />
                 <div>
-                  <div style={{ fontSize: "12px", color: "#777873", textTransform: "uppercase" }}>Email</div>
-                  <a href="mailto:jpprint13@gmail.com" style={{ color: "#FFFFFF", fontWeight: "500" }}>jpprint13@gmail.com</a>
+                  <div style={{ fontSize: "12px", color: "#777873", textTransform: "uppercase", fontWeight: "600", letterSpacing: "0.05em" }}>Email</div>
+                  <a href="mailto:jpprint13@gmail.com" style={{ color: "#FFFFFF", fontWeight: "600", fontSize: "15px" }}>jpprint13@gmail.com</a>
                 </div>
               </div>
 
               <div style={{ display: "flex", alignItems: "flex-start", gap: "10px" }}>
                 <Clock size={16} style={{ color: "#F5D800", marginTop: "3px", flexShrink: 0 }} />
                 <div>
-                  <div style={{ fontSize: "12px", color: "#777873", textTransform: "uppercase" }}>Operating Hours</div>
-                  <div>Mon–Fri: 9:00 AM – 6:00 PM</div>
-                  <div>Sat: 10:00 AM – 3:00 PM</div>
+                  <div style={{ fontSize: "12px", color: "#777873", textTransform: "uppercase", fontWeight: "600", letterSpacing: "0.05em" }}>Operating Hours</div>
+                  <div style={{ color: "#FFFFFF", fontWeight: "600" }}>Mon–Fri: 9:00 AM – 6:00 PM</div>
+                  <div style={{ color: "#FFFFFF", fontWeight: "600" }}>Sat: 10:00 AM – 3:00 PM</div>
                   <div style={{ color: "#777873", fontSize: "12px" }}>Sunday: Closed</div>
                 </div>
               </div>
@@ -121,8 +121,8 @@ export default function Footer() {
               <div style={{ display: "flex", alignItems: "flex-start", gap: "10px" }}>
                 <MapPin size={16} style={{ color: "#A8B8B2", marginTop: "3px", flexShrink: 0 }} />
                 <div>
-                  <div style={{ fontSize: "12px", color: "#777873", textTransform: "uppercase" }}>Region</div>
-                  <div>Ontario, Canada</div>
+                  <div style={{ fontSize: "12px", color: "#777873", textTransform: "uppercase", fontWeight: "600", letterSpacing: "0.05em" }}>Region</div>
+                  <div style={{ color: "#FFFFFF", fontWeight: "600", fontSize: "15px" }}>Ontario, Canada</div>
                 </div>
               </div>
             </div>

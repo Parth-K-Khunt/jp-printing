@@ -82,7 +82,9 @@ export default function ContactFormInteractive() {
         <div className={styles.contactGrid}>
           {/* Left Column: Business Details */}
           <div className={styles.infoColumn}>
-            <span className="eyebrow eyebrow-accent">Ontario, Canada</span>
+            <div className={styles.contactHeaderBadge}>
+              Ontario, Canada · Commercial Printing &amp; Architectural Signage
+            </div>
             <h1 className={styles.heading}>Let&apos;s Talk About Your Project</h1>
             <p className={styles.lead}>
               We&apos;re here to help with your commercial printing and architectural signage needs. Get in touch with our team for honest advice, accurate proofs, and transparent estimates.
@@ -128,10 +130,10 @@ export default function ContactFormInteractive() {
                 </div>
                 <div>
                   <div className={styles.cardLabel}>Operating Hours</div>
-                  <div style={{ fontSize: "14px", fontWeight: "600", color: "var(--foreground)" }}>
+                  <div className={styles.cardHoursLine}>
                     Monday – Friday: 9:00 AM – 6:00 PM
                   </div>
-                  <div style={{ fontSize: "14px", fontWeight: "600", color: "var(--foreground)", marginTop: "2px" }}>
+                  <div className={styles.cardHoursLine}>
                     Saturday: 10:00 AM – 3:00 PM
                   </div>
                   <div className={styles.cardSubtext}>
@@ -149,7 +151,7 @@ export default function ContactFormInteractive() {
                   <div className={styles.cardLabel}>Service Area</div>
                   <div className={styles.cardValue}>Ontario, Canada</div>
                   <div className={styles.cardSubtext}>
-                    Providing local pickups, reliable regional shipping, and on-site signage installation.
+                    Providing local pickups, reliable regional shipping, and on-site signage installation across Ontario.
                   </div>
                 </div>
               </div>

@@ -15,9 +15,9 @@
 .utilityBar {
   background-color: var(--surface-muted);
   border-bottom: 1px solid var(--border-light);
-  font-size: 13px;
-  color: var(--muted);
-  padding: 9px 0;
+  font-size: 13.5px;
+  color: var(--foreground);
+  padding: 10px 0;
   line-height: 1.4;
   width: 100%;
   position: relative;
@@ -34,27 +34,31 @@
   display: flex;
   align-items: center;
   gap: 8px;
-  font-weight: 500;
-  letter-spacing: 0.01em;
+  font-size: 13.5px;
+  font-weight: 600;
+  color: var(--foreground);
+  letter-spacing: 0.015em;
 }
 
 .utilityRight {
   display: flex;
   align-items: center;
-  gap: 16px;
+  gap: 18px;
 }
 
 .utilityLink {
   display: inline-flex;
   align-items: center;
-  gap: 6px;
-  color: var(--muted);
-  font-weight: 500;
+  gap: 7px;
+  font-size: 13.5px;
+  font-weight: 600;
+  color: var(--foreground);
+  letter-spacing: 0.015em;
   transition: color 0.2s ease;
 }
 
 .utilityLink:hover {
-  color: var(--foreground);
+  color: var(--brand-magenta);
 }
 
 .utilityDivider {
@@ -88,7 +92,7 @@
 /* Main Navigation */
 .mainNav {
   background-color: transparent;
-  padding: 16px 0;
+  padding: 19px 0;
 }
 
 .navContainer {
@@ -105,9 +109,9 @@
 
 .logoImage {
   width: auto;
-  max-width: 195px;
+  max-width: 215px;
   height: auto;
-  max-height: 54px;
+  max-height: 60px;
   object-fit: contain;
   transition: transform 0.2s ease;
 }
@@ -431,20 +435,36 @@
   .mobileContactItem {
     display: flex;
     align-items: center;
-    gap: 8px;
-    font-size: 14px;
+    gap: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--foreground);
+  }
+
+  .mobileContactItem a {
+    color: var(--foreground);
+    text-decoration: none;
+    font-weight: 600;
+  }
+
+  .mobileRegionText {
+    font-size: 13.5px;
+    font-weight: 600;
     color: var(--muted);
+    line-height: 1.4;
   }
 
   .mobileCta {
     width: 100%;
     margin-top: 8px;
+    font-weight: 600;
   }
 }
 
 @media (max-width: 480px) {
   .logoImage {
-    max-width: 150px;
+    max-width: 165px;
+    max-height: 48px;
   }
 
   .headerActions .btn {

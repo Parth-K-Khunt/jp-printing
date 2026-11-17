@@ -17,7 +17,7 @@ const methods = [
     title: "Talk it through",
     description: "Call us to discuss a project or explore your print options.",
     label: "905 919 1181",
-    href: "tel:+19059191181",
+    href: "tel:9059191181",
     color: "pink",
   },
   {

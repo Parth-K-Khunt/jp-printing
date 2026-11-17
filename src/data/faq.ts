@@ -7,7 +7,7 @@ export const faq: FaqItem[] = [
   {
     question: "What file formats do you accept for print and signage production?",
     answer:
-      "We accept print-ready vector and high-resolution files including PDF, AI (Adobe Illustrator), EPS, and high-resolution TIFF or PNG (300 DPI at 100% scale for print, 150 DPI at full scale for large-format signs). For best results, design in CMYK color mode, convert text fonts to outlines/curves, and include a standard 0.125\" (1/8 inch) bleed around the perimeter.",
+      "We accept print-ready vector and high-resolution files including PDF, AI (Adobe Illustrator), EPS, and high-resolution TIFF or PNG (300 DPI at 100% scale for print, 150 DPI at full scale for large-format signs). For best results, design in CMYK colour mode, convert text fonts to outlines/curves, and include a standard 0.125\" (1/8 inch) bleed around the perimeter.",
   },
   {
     question: "Can I request custom sizes and dimensions not listed on the site?",

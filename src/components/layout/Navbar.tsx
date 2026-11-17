@@ -72,12 +72,12 @@ export default function Navbar() {
           </div>
           <div className={styles.utilityRight}>
             <a href="mailto:jpprint13@gmail.com" className={styles.utilityLink}>
-              <Mail size={13} aria-hidden="true" />
+              <Mail size={14} aria-hidden="true" />
               <span>jpprint13@gmail.com</span>
             </a>
             <span className={styles.utilityDivider}>|</span>
             <a href="tel:9059191181" className={styles.utilityLink}>
-              <Phone size={13} aria-hidden="true" />
+              <Phone size={14} aria-hidden="true" />
               <span>905 919 1181</span>
             </a>
           </div>
@@ -101,8 +101,8 @@ export default function Navbar() {
               <Image
                 src="/image/logo/jp_logo.webp"
                 alt="JP Printing & Signs Logo"
-                width={180}
-                height={55}
+                width={210}
+                height={60}
                 priority
                 className={styles.logoImage}
               />
@@ -306,6 +306,9 @@ export default function Navbar() {
               <div className={styles.mobileContactItem}>
                 <Mail size={16} />
                 <a href="mailto:jpprint13@gmail.com">jpprint13@gmail.com</a>
+              </div>
+              <div className={styles.mobileContactItem}>
+                <span className={styles.mobileRegionText}>Ontario, Canada · Commercial Printing &amp; Architectural Signage</span>
               </div>
               <Link href="/contact" className={`btn btn-primary ${styles.mobileCta}`}>
                 Get a Quote

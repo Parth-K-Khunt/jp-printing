@@ -6,7 +6,7 @@ import ProductsDirectory from "@/components/products/ProductsDirectory";
 export const metadata: Metadata = {
   title: "Commercial Products Directory | JP Printing & Signs | Ontario",
   description:
-    "Explore our complete product catalog: custom business cards, wedding invitation suites, table tent cards, promotional banners, storefront signage, vehicle wraps, and real estate signs.",
+    "Explore our complete product catalogue: custom business cards, wedding invitation suites, table tent cards, promotional banners, storefront signage, vehicle wraps, and real estate signs.",
 };
 
 export default function ProductsPage() {

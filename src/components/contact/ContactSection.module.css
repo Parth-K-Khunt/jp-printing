@@ -20,6 +20,19 @@
   flex-direction: column;
 }
 
+.contactHeaderBadge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 13.5px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--brand-magenta);
+  margin-bottom: 16px;
+  line-height: 1.4;
+}
+
 .heading {
   font-family: var(--font-serif);
   font-size: clamp(2.4rem, 4vw, 3.4rem);
@@ -79,14 +92,25 @@
 }
 
 .cardValue {
-  font-size: 15px;
+  font-size: 17px;
   font-weight: 600;
   color: var(--foreground);
   text-decoration: none;
+  letter-spacing: 0.015em;
+  display: inline-block;
+  line-height: 1.4;
 }
 
 .cardValue:hover {
   color: var(--brand-magenta);
+}
+
+.cardHoursLine {
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--foreground);
+  margin-bottom: 2px;
+  line-height: 1.4;
 }
 
 .cardSubtext {
